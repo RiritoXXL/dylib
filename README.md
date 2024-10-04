@@ -62,7 +62,7 @@ The `dylib` class can also load a dynamic library from a specific path
 ```c++
 // Load "foo" library from relative path "./libs"
 
-dylib lib("./libs", "foo");
+dylib lib(".//libs", "foo");
 
 // Load "foo" library from full path "/usr/lib"
 
